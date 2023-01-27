@@ -1,0 +1,16 @@
+.code-container {
+  padding: 20px 30px;
+  background-color: rgb(44, 56, 90);
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+::-webkit-scrollbar {
+  height: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(221, 221, 233);
+  border-radius: 20px;
+  border: 5px solid rgb(44, 56, 90);
+}
