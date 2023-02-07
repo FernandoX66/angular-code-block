@@ -19,15 +19,15 @@ h1 {
 }
 
 .tag {
-  color: rgb(212, 76, 239);
+  color: #c39dff;
 }
 
 .tag > .tag-name {
-  color: rgb(187, 187, 255);
+  color: #5bbbff;
 }
 
 .tag > .tag-string {
-  color: rgb(46, 224, 215);
+  color: #43ECA4;
 }
 
 pre {

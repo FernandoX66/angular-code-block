@@ -1,0 +1,30 @@
+<h1>Code Block Component</h1>
+<app-tabs (tabSelected)="onTabSelected($event)"></app-tabs>
+<app-code-block [currentTab]="tabIndex">
+  <!-- HTML code block -->
+
+  <pre *appCode="1">
+<span class="tag"><<span class="tag-name">clapp-card</span>></span>
+  <span class="tag"><<span class="tag-name">clapp-card-header</span> header-large [title]=<span class="tag-string">"cardTitle"</span> icon=<span class="tag-string">"li-close-icon"</span>></span>
+    Some content here
+  <span class="tag">&#60;/<span class="tag-name">clapp-card-header</span>></span>
+<span class="tag">&#60;/<span class="tag-name">clapp-card</span>></span>
+</pre>
+
+  <!-- HTML code block -->
+
+  <pre *appCode="0">
+<span class="tag"><<span class="tag-name">clapp-card</span>></span>
+  <span class="tag"><<span class="tag-name">clapp-datepicker</span> minDate=<span class="tag-string">"currentDate"</span> clappRangeDate /></span>
+  Current date
+<span class="tag">&#60;/<span class="tag-name">clapp-card</span>></span>
+</pre>
+
+  <!-- HTML code block -->
+
+  <pre *appCode="2">
+<span class="tag"><<span class="tag-name">clapp-button</span>></span>
+  Some second content here
+<span class="tag">&#60;/<span class="tag-name">clapp-button</span>></span>
+</pre>
+</app-code-block>

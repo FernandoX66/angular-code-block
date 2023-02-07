@@ -1,0 +1,21 @@
+:host {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 6px 24px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  font-family: inherit;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.active {
+    background-color: rgb(187, 187, 255);
+  }
+}
